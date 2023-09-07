@@ -1,0 +1,57 @@
+/* custom.css */
+.ql-toolbar .ql-stroke {
+    stroke: white;
+}
+
+.ql-toolbar .ql-fill {
+    fill: white;
+}
+/* Home.css */
+
+/* Styling for chat messages */
+.message {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    word-wrap: break-word;
+    max-width: 70%;
+}
+
+/* Styling for right-aligned messages */
+.message-right {
+    background-color: #958eff;
+    color: #fff;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    word-wrap: break-word;
+    max-width: 70%;
+    align-self: flex-end;
+}
+
+/* Styling for left-aligned messages */
+.message-left {
+    background-color: #2ecc71;
+    color: #fff;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    word-wrap: break-word;
+    max-width: 70%;
+    align-self: flex-start;
+}
+
+/* Styling for the reactions menu */
+.reaction-option {
+    display: block;
+    margin: 5px 0;
+    cursor: pointer;
+    padding: 5px;
+    border: none;
+    background-color: transparent;
+    text-align: left;
+}
+
+/* Add additional styles as needed */
